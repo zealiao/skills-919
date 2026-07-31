@@ -28,14 +28,26 @@ for (const file of files) {
     failures.push(`${file.replace(root, 'catalog/')}: 未核验许可证的条目必须声明不复制原始文件`);
   }
   const sourceUrl = body.match(/^[-*] \*\*来源链接\*\*：(https:\/\/\S+)$/m)?.[1];
-  if (!sourceUrl || !/\/(?:skill)\//.test(sourceUrl)) {
-    failures.push(`${file.replace(root, 'catalog/')}: 来源链接必须直达具体 Skill 详情页`);
+  if (!sourceUrl || !isSpecificSkillPage(sourceUrl)) {
+    failures.push(`${file.replace(root, 'catalog/')}: 来源链接必须直达具体 Skill 详情页，不能是首页、分类或搜索页`);
   }
 }
 
-if (files.length !== 30) failures.push(`应有 30 个 Skill 条目，实际为 ${files.length} 个`);
+if (files.length !== 100) failures.push(`应有 100 个 Skill 条目，实际为 ${files.length} 个`);
 if (failures.length) {
   console.error(failures.join('\n'));
   process.exit(1);
 }
 console.log(`Catalog check passed: ${files.length} entries in ${groups.filter((entry) => entry.isDirectory()).length} categories.`);
+
+function isSpecificSkillPage(url) {
+  try {
+    const parsed = new URL(url);
+    const path = parsed.pathname.replace(/\/$/, '');
+    if (!path || path === '/') return false;
+    if (/^\/(?:search|skills|topics|categories|about|docs)$/i.test(path)) return false;
+    return true;
+  } catch {
+    return false;
+  }
+}
