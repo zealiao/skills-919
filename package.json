@@ -1,0 +1,7 @@
+{
+  "name": "skills-919",
+  "private": true,
+  "scripts": {
+    "check": "node scripts/validate-catalog.mjs"
+  }
+}
