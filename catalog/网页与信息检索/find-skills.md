@@ -8,9 +8,9 @@
   - 协助执行安装和更新的后续步骤。
 - **适用场景**：不知道该用什么 Skill、为团队补充工具链、整理 Skill 生态资源。
 - **来源平台**：SkillHub 中国
-- **来源链接**：https://www.skill-cn.com/practice/240
+- **来源链接**：https://www.skill-cn.com/skill/36
 - **原作者 / 原始仓库**：平台页面关联作者待复核
-- **原始链接**：https://www.skill-cn.com/practice/240
+- **原始链接**：https://www.skill-cn.com/skill/36
 - **热度 / 评价快照**：公开实践页称其为用于搜索和安装其他技能的“元 Skill”；具体安装源需详情页确认。
 - **采集日期**：2026-07-31
 - **安装方式**：打开来源页，跟随关联 Skill 或原始仓库的当前安装指引。

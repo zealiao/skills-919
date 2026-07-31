@@ -8,9 +8,9 @@
   - 提供记忆质量与隐私风险的检查要点。
 - **适用场景**：个人知识助手、客户支持 Agent、长期项目协作和研究记录。
 - **来源平台**：虾评 Skill
-- **来源链接**：https://xiaping.coze.com/?category=IT%2F%E4%BA%92%E8%81%94%E7%BD%91
+- **来源链接**：https://xiaping.coze.com/skill/14ff5aad-4df3-4b33-ba0b-6cc217cdb939
 - **原作者 / 原始仓库**：虾评公开收录作者待复核
-- **原始链接**：https://xiaping.coze.com/
+- **原始链接**：https://xiaping.coze.com/skill/14ff5aad-4df3-4b33-ba0b-6cc217cdb939
 - **热度 / 评价快照**：平台公开排行榜展示“Agent记忆系统搭建指南”为高下载条目之一；具体数值以页面当日为准。
 - **采集日期**：2026-07-31
 - **安装方式**：在虾评搜索对应名称，并只连接经授权的存储和检索服务。

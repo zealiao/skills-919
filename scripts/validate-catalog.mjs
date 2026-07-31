@@ -27,6 +27,10 @@ for (const file of files) {
   if (body.includes('许可证**：未核验') && !body.includes('不复制原始文件')) {
     failures.push(`${file.replace(root, 'catalog/')}: 未核验许可证的条目必须声明不复制原始文件`);
   }
+  const sourceUrl = body.match(/^[-*] \*\*来源链接\*\*：(https:\/\/\S+)$/m)?.[1];
+  if (!sourceUrl || !/\/(?:skill)\//.test(sourceUrl)) {
+    failures.push(`${file.replace(root, 'catalog/')}: 来源链接必须直达具体 Skill 详情页`);
+  }
 }
 
 if (files.length !== 30) failures.push(`应有 30 个 Skill 条目，实际为 ${files.length} 个`);

@@ -8,9 +8,9 @@
   - 输出发布前检查项，如链接、错别字和版权归属。
 - **适用场景**：公众号文章、企业内容号、知识库内容二次发布。
 - **来源平台**：SkillHub 中国
-- **来源链接**：https://www.skill-cn.com/
+- **来源链接**：https://www.skill-cn.com/skill/18
 - **原作者 / 原始仓库**：平台实践关联作者待复核
-- **原始链接**：https://www.skill-cn.com/
+- **原始链接**：https://www.skill-cn.com/skill/18
 - **热度 / 评价快照**：平台首页收录 “md2wechat-skill” 相关实践；具体数值待详情页确认。
 - **采集日期**：2026-07-31
 - **安装方式**：在 SkillHub 中国搜索“md2wechat”，按对应来源的工具链说明配置。
