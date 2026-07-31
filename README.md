@@ -9,11 +9,11 @@
 | 分类 | 条目数 | 适合解决的问题 |
 | --- | ---: | --- |
 | [办公与效率](catalog/办公与效率) | 5 | 协作、纪要、文档、表格和排版 |
-| [开发辅助](catalog/开发辅助) | 6 | 创建 Skill、浏览器自动化、代码与 API 工作 |
-| [内容运营](catalog/内容运营) | 6 | 文案、选题、公众号和视频策划 |
+| [开发辅助](catalog/开发辅助) | 5 | 创建 Skill、浏览器自动化、代码与 API 工作 |
+| [内容运营](catalog/内容运营) | 5 | 文案、选题、公众号和视频策划 |
 | [数据分析](catalog/数据分析) | 5 | 新闻、数据质量、脱敏和 Agent 记忆 |
 | [网页与信息检索](catalog/网页与信息检索) | 5 | Skill 发现、公开研究、表单与网页测试 |
-| [文件与图像处理](catalog/文件与图像处理) | 3 | 图片压缩、PDF 和演示文稿处理 |
+| [文件与图像处理](catalog/文件与图像处理) | 5 | 图片压缩、PDF、图表和演示文稿处理 |
 
 ## 首期 30 个精选
 
@@ -28,14 +28,12 @@
 | 开发辅助 | [agent-browser](catalog/开发辅助/agent-browser.md) | 自动化网页交互、测试、截图和提取。 |
 | 开发辅助 | [Superpowers](catalog/开发辅助/superpowers.md) | 为编码 Agent 提供完整的软件开发工作流。 |
 | 开发辅助 | [MCP Builder](catalog/开发辅助/mcp-builder.md) | 创建 MCP Server，将外部系统封装为 Agent 工具。 |
-| 开发辅助 | [Vue Best Practices](catalog/开发辅助/vue-best-practices.md) | 指导 Vue 组件设计、性能优化和工程实践。 |
 | 开发辅助 | [UI / UX Pro Max](catalog/开发辅助/ui-ux-pro-max.md) | 为前端开发提供成熟的 UI/UX 设计规范。 |
 | 内容运营 | [AI 文本去味器](catalog/内容运营/AI文本去味器.md) | 改善生硬和重复表达，保留人工审核环节。 |
 | 内容运营 | [公众号商业科技写作](catalog/内容运营/公众号商业科技写作.md) | 提供商业和科技文章的结构与发布检查。 |
 | 内容运营 | [SaaS 营销策略](catalog/内容运营/saas营销策略.md) | 为 SaaS 的定位、增长和营销活动生成创意。 |
 | 内容运营 | [Remotion Best Practices](catalog/内容运营/remotion-best-practices.md) | 用 React 的编程式方式创作视频。 |
 | 内容运营 | [小红书运营助手](catalog/内容运营/小红书运营助手.md) | 辅助小红书选题、笔记创作和账号运营。 |
-| 内容运营 | [宝玉 Skills](catalog/内容运营/baoyu-skills.md) | 组织公众号内容创作、排版和发布工作流。 |
 | 数据分析 | [全网新闻聚合助手](catalog/数据分析/全网新闻聚合助手.md) | 聚合公开新闻线索并保留出处。 |
 | 数据分析 | [微博话题全量监测](catalog/数据分析/微博话题全量监测.md) | 收集和持续观察公开微博话题线索。 |
 | 数据分析 | [智能数据脱敏助手](catalog/数据分析/智能数据脱敏助手.md) | 识别并处理常见个人和敏感信息。 |
@@ -49,6 +47,8 @@
 | 文件与图像处理 | [智能图片压缩助手](catalog/文件与图像处理/智能图片压缩助手.md) | 为不同场景减小图片体积并保留原图。 |
 | 文件与图像处理 | [PDF 工具箱](catalog/文件与图像处理/PDF工具箱.md) | 提取、整理和检查 PDF 文档。 |
 | 文件与图像处理 | [PPTX](catalog/文件与图像处理/pptx.md) | 根据提纲、数据和素材创建和编辑演示文稿。 |
+| 文件与图像处理 | [Excalidraw Diagram Generator](catalog/文件与图像处理/excalidraw-diagram.md) | 将文本转为可编辑的流程图、思维导图和关系图。 |
+| 文件与图像处理 | [PPT SVG 生成器](catalog/文件与图像处理/ppt-svg-generator.md) | 将 Markdown 文稿生成可导入 PPT 的 SVG 页面。 |
 
 ## 如何使用
 
