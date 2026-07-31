@@ -1,0 +1,22 @@
+# 浏览器控制（browser-use）
+
+- **分类**：网页与检索
+- **简要用途**：通过浏览器调试协议让 Agent 执行网页浏览、提取和测试操作。
+- **核心功能**：
+  - 驱动页面导航、点击、填写、截图和内容抓取。
+  - 支持在网站或 Web 应用中完成可复现的浏览器操作。
+- **适用场景**：公开网页研究、Web 回归测试、页面截图和受控表单处理。
+- **来源平台**：Skills.sh
+- **来源链接**：https://www.skills.sh/browser-use/browser-use/browser-use
+- **原作者 / 原始仓库**：Browser Use / browser-use/browser-use
+- **原始链接**：https://github.com/browser-use/browser-use
+- **热度 / 评价快照**：Skills.sh 全站榜在 2026-07-31 显示约 88.1K 次安装；SkillsMP 同期显示约 106.9K。
+- **采集日期**：2026-07-31
+- **安装方式**：`npx skills add https://github.com/browser-use/browser-use --skill browser-use`
+- **许可证**：许可证待在原仓库逐项确认；本仓库不复制原始文件。
+- **人工核验**：已核验具体条目、原始仓库和安装入口；未执行登录或付费操作。
+- **风险 / 依赖备注**：浏览器可访问登录状态和页面数据；禁止绕过认证、验证码，提交或发送操作必须二次确认。
+
+## 收录说明
+
+它与现有 agent-browser 是不同实现的浏览器自动化工具。两个条目均强调授权、最小权限和人工确认。
