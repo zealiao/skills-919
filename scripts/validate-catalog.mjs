@@ -13,10 +13,16 @@ const required = [
 
 const groups = await readdir(root, { withFileTypes: true });
 const files = [];
+const populatedGroups = [];
 for (const group of groups.filter((entry) => entry.isDirectory())) {
+  let hasSkill = false;
   for (const entry of await readdir(join(root, group.name), { withFileTypes: true })) {
-    if (entry.isFile() && entry.name.endsWith('.md')) files.push(join(root, group.name, entry.name));
+    if (entry.isFile() && entry.name.endsWith('.md')) {
+      files.push(join(root, group.name, entry.name));
+      hasSkill = true;
+    }
   }
+  if (hasSkill) populatedGroups.push(group.name);
 }
 
 const failures = [];
@@ -33,12 +39,13 @@ for (const file of files) {
   }
 }
 
-if (files.length !== 100) failures.push(`应有 100 个 Skill 条目，实际为 ${files.length} 个`);
+if (files.length !== 50) failures.push(`应有 50 个 Skill 条目，实际为 ${files.length} 个`);
+if (populatedGroups.length !== 5) failures.push(`应有 5 个非空分类，实际为 ${populatedGroups.length} 个`);
 if (failures.length) {
   console.error(failures.join('\n'));
   process.exit(1);
 }
-console.log(`Catalog check passed: ${files.length} entries in ${groups.filter((entry) => entry.isDirectory()).length} categories.`);
+console.log(`Catalog check passed: ${files.length} entries in ${populatedGroups.length} categories.`);
 
 function isSpecificSkillPage(url) {
   try {
